@@ -12,14 +12,14 @@ dir = 0
 
 while True:
     success, img = cap.read()
-    
+    #img = cv2.flip(img, 1)     #uncomment this to make it for left hand
     img = cv2.resize(img, (1280, 720))
     img = detector.findPose(img, False)
     lmList = detector.findPosition(img, False)
     #print(lmList)
     
     if len(lmList) != 0:
-        angle = detector.findAngle(img, 12, 14, 16)
+        angle = detector.findAngle(img, 12, 14, 16)     #right hand
         per = np.interp(angle, (210, 310), (0, 100))
         bar = np.interp(angle, (220, 310), (600, 200))
 
