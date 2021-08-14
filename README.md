@@ -1,4 +1,6 @@
 # AI-Fitness-Trainer
+![image](https://user-images.githubusercontent.com/86593289/129444651-1d11134c-6caa-4259-85b1-2a44f6ff98a2.png)
+
 It is an AI fitness Trainer which count your number of dumbell-curls.
 # Code
 Firstly I made a Module "PoseModule.py", this file contains the code which detects our arm, in this file I have created functions for specific tasks in a class "poseDetector()".
