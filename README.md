@@ -14,3 +14,12 @@ Short description of functions are -
 Then another file is "AITrainerProject.py", this file uses that PoseModule and contains the code which shows bar and count the number of curls.
 
 This project is created in Python-3 language using OpenCV and Mediapipe library.
+
+# Installation
+To run this file you need to install some PYTHON modules, open your CMD and type following commands-
+
+* pip install mediapipe
+* pip install opencv-python
+* pip install numpy
+* pip install math
+
